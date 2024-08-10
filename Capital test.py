@@ -30,7 +30,7 @@ def quiz():
             print("Correct!")
             correct += 1
         else:
-            print(f"Incorrect. The capital of {state} is : {states_and_capitals[state]}")
+            print(f"Incorrect! The capital of {state} is : {states_and_capitals[state]}")
             incorrect += 1
 for _ in range(5):
     quiz()
